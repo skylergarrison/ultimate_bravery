@@ -81,7 +81,7 @@ champions = {
     ],
     'Chemtech': [
         'Singed',
-        'Twitch'
+        'Twitch',
         'Warwick',
         'Tryndamere',
         'Zac',
@@ -159,7 +159,7 @@ champions = {
         'Blitz',
         'Ekko',
         'Irelia',
-        'Jinx',
+        'Jinx'
     ],
     'Sniper' : [
         'Ashe',
