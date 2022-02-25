@@ -100,7 +100,7 @@ champions = {
         'Talon',
         'Leona',
         'Draven',
-        'Zeri',
+        'Zeri'
     ],
     'Enforcer': [
         'Caitlyn',
@@ -172,7 +172,7 @@ champions = {
         'Gnar',
         'Senna',
         'Seraphine',
-        'Galio',
+        'Galio'
     ],
     'Striker': [
         'Gnar',
