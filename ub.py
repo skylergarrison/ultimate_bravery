@@ -60,7 +60,7 @@ champions = {
     'Bruiser': [
         'Cho\'gath',
         'Illaoi',
-        'Rek\sai',
+        'Rek\'sai',
         'Sejuani',
         'Tahm Kench',
         'Vi',
