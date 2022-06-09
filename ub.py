@@ -3,7 +3,8 @@ import traits_data
 
 class Ub:
     def roll(self):
-        self.roll_result = random.sample(traits_data.traits, 2)
+        traits = traits_data.classes + traits_data.origins
+        self.roll_result = random.sample(traits, 2)
         trait1 = self.roll_result[0]
         trait2 = self.roll_result[1]
         self.legal_champs = traits_data.champions[trait1] + traits_data.champions[trait2]

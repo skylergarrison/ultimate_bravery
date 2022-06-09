@@ -1,24 +1,228 @@
-traits = [
-    'Butts',
-    'MoreButts'
+classes = [
+    'Assassin',
+    'Bruiser',
+    'Cannoneer',
+    'Cavalier',
+    'Dragonmancer',
+    'Evoker',
+    'Guardian',
+    'Legend',
+    'Mage',
+    'Mystic',
+    'Shapeshifter',
+    'Swiftshot',
+    'Warrior'
+]
+origins = [
+    'Astral',
+    'Dragon',
+    'Guild',
+    'Jade',
+    'Mirage',
+    'Ragewing',
+    'Revel',
+    'Scalescorn',
+    'Shimmerscale',
+    'Tempest',
+    'Trainer',
+    'Whispers'
 ]
 low_pop_traits = [
+    'Bard',
+    'Spell-Thief',
+    'Starcaller'
 ]
 champions = {
-    'Butts':[
-        'Ahri',
-        'Brand',
-        'Malzahar',
-        'Swain',
-        'Vex',
-        'Viktor',
-        'Ziggs'
+    'Assassin':[
+        'Diana',
+        'Kayn',
+        'Pyke',
+        'Qiyana',
+        'Talon'
     ],
-    'MoreButts':[
-        'Ekko',
-        'Kha\'zix',
-        'Nocturne',
+    'Bruiser':[
+        'Illaoi',
+        'Olaf',
+        'Ornn',
+        'Shen',
+        'Skarner',
+        'Sy\'fen',
+        'Sylas',
+        'Tahm Kench'
+    ],
+    'Cannoneer':[
+        'Corki',
+        'Jinx',
+        'Senna',
+        'Tristana'
+    ],
+    'Cavalier':[
+        'Hecarim',
+        'Lillia',
+        'Nunu',
+        'Sejuani'
+    ],
+    'Dragonmancer':[
+        'Ashe',
+        'Karma',
+        'Lee Singa',
+        'Republican Candidate Sett',
+        'Swain',
+        'Volibear',
+        'Yasuo'
+    ],
+    'Evoker':[
+        'Anivia',
+        'Aurelion Sol',
+        'Lulu',
+        'Sona'
+    ],
+    'Guardian':[
+        'Braum',
+        'Idas',
+        'Leona',
+        'Taric',
+        'Thresh'
+    ],
+    'Legend':[
+        'Anivia',
+        'Ornn',
+        'Volibear'
+    ],
+    'Mage':[
+        'Heimerdinger',
+        'Lillia',
+        'Nami',
+        'Ryze',
+        'Sylas',
+        'Vladimir',
+        'Zoe'
+    ],
+    'Mystic':[
+        'Bard',
+        'Lulu',
+        'Nami',
+        'Shi Oh Yu'
+    ],
+    'Shapeshifter':[
+        'Elise',
+        'Gnar',
+        'Neeko',
+        'Nidalee',
+        'Shyvana',
+        'Swain'
+    ],
+    'Swiftshot':[
+        'Ashe',
+        'Ezreal',
+        'Twitch',
+        'Varus',
+        'Xayah'
+    ],
+    'Warrior':[
+        'Aatrox',
+        'Olaf',
+        'Shen',
+        'Yasuo',
+        'Yone'
+    ],
+    'Astral':[
+        'Aurelion Sol',
+        'Illaoi',
+        'Nami',
+        'Nidalee',
+        'Skarner',
+        'Varus',
+        'Vladimir'
+    ],
+    'Dragon':[
+        'Ao Shin',
+        'Aurelion Sol',
+        'Daeja',
+        'Idas',
+        'Shi Oh Yu',
+        'Shyvana',
+        'Sy\'fen'
+    ],
+    'Guild':[
+        'Bard',
+        'Ryze',
+        'Sejuani',
         'Talon',
         'Twitch'
+    ],
+    'Jade':[
+        'Anivia',
+        'Ashe',
+        'Gnar',
+        'Karma',
+        'Neeko',
+        'Shi Oh Yu',
+        'Soraka Flocka Flame',
+        'Taric'
+    ],
+    'Mirage':[
+        'Daeja',
+        'Leona',
+        'Nunu',
+        'Yasuo',
+        'Yone'
+    ],
+    'Ragewing':[
+        'Hecarim',
+        'Kayn',
+        'Senna',
+        'Republican Candidate Sett',
+        'Shen',
+        'Shyvana',
+        'Swain',
+        'Xayah'
+    ],
+    'Revel':[
+        'Corki',
+        'Jinx',
+        'Sona',
+        'Tahm Kench'
+    ],
+    'Scalescorn':[
+        'Braum',
+        'Diana',
+        'Lillia',
+        'Olaf'
+    ],
+    'Shimmerscale':[
+        'Aatrox',
+        'Idas',
+        'Kayn',
+        'Volibear',
+        'Zoe'
+    ],
+    'Tempest':[
+        'Ao Shin',
+        'Ezreal',
+        'Lee Singa',
+        'Ornn',
+        'Qiyana'
+    ],
+    'Trainer':[
+        'Heimerdinger',
+        'Lulu',
+        'Tristana'
+    ],
+    'Whispers':[
+        'Elise',
+        'Pyke',
+        'Sy\'fen',
+        'Sylas',
+        'Thresh'
+    ],
+    'Bard':[
+        'Bard'
+    ],
+    'Spell-Thief':[
+        'Zoe'
+    ],
+    'Starcaller':[
+        'Soraka Flocka Flame'
     ]
 }
