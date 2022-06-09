@@ -1,1 +1,1 @@
-web: waitress-serve ultimatest_bravest:app
+web: waitress-serve --port=$PORT ultimatest_bravest:app
