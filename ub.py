@@ -3,13 +3,13 @@ import traits_data
 
 class Ub:
     def roll(self):
-        traits = traits_data.classes + traits_data.origins
-        self.roll_result = random.sample(traits, 2)
-        trait1 = self.roll_result[0]
-        trait2 = self.roll_result[1]
-        self.legal_champs = traits_data.champions[trait1] + traits_data.champions[trait2]
-        self.royal = random.sample(self.legal_champs, 1)
+        self.trait1 = random.sample(traits_data.classes, 1)[0]
+        self.trait2 = random.sample(traits_data.origins, 1)[0]
+        self.legal_champs1 = traits_data.champions[self.trait1]
+        self.legal_champs2 = traits_data.champions[self.trait2]
+        self.all_champs = self.legal_champs1 + self.legal_champs2
+        self.royal = random.sample(self.all_champs, 1)[0]
 
-        print(self.roll_result)
+        print(self.trait1 + ' / ' + self.trait2)
         print(self.royal)
-        print(self.legal_champs)
+        print(self.all_champs)

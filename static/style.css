@@ -1,0 +1,57 @@
+@font-face {
+    font-family: marker;
+    src: url('PermanentMarker-Regular.ttf');
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    max-width: 100%;
+}
+
+#synergies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: marker;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#royal {
+    font-family: marker;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.champs {
+    font-family: Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filler {
+    font-family: marker;
+    color: red;
+    font-size: 2vw;
+}
+
+#footer {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 2vh;
+    background-color: black;
+    width: 100%;
+    height: 4vh;
+}

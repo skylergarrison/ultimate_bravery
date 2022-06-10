@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <title>Ultimate Bravery: The Home of the Brave</title>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+  </head>
+  <body>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        <div>
+            <span style="color:#d5ce02">Golden Rule:</span> <span style="color:#ffffff">Be brave, you big brave idiot!</span>
+        </div>
+    </div>
+  </body>
+</html>
