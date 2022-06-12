@@ -23,15 +23,19 @@
 }
 
 #royal {
+    display: flex;
     font-family: marker;
     font-size: 5vw;
     font-weight: bold;
 }
 
+#royal-name {
+    padding-right: 1.5vw;
+}
+
 .champs {
-    font-family: Helvetica, sans-serif;
+    font-family: marker;
     font-size: 3vw;
-    font-weight: bold;
     text-align: center;
 }
 

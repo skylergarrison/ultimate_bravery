@@ -2,6 +2,7 @@ Ultimate bravery for impatient fools
 
 run dev with:
 > $env:FLASK_ENV='development'
+
 > flask run
 
 When done dev:
