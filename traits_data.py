@@ -246,276 +246,276 @@ champions_data = {
      'karma':{
          'name':'Karma',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'karma.png'
      },
      'leona':{
          'name':'Leona',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'leona.png'
      },
      'nidalee':{
          'name':'Nidalee',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'nidalee.png'
      },
      'sejuani':{
          'name':'Sejuani',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'sejuani.png'
      },
      'senna':{
          'name':'Senna',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'senna.png'
      },
      'rcs':{
          'name':'Republican Candidate Sett',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'rcs.png'
      },
      'skarner':{
          'name':'Skarner',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'skarner.png'
      },
      'tahmkench':{
          'name':'Tahm Kench',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'tahmkench.png'
      },
      'taric':{
          'name':'Taric',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'taric.png'
      },
      'vladimir':{
          'name':'Vladimir',
          'cost': 1,
-         'thumb':'.png'
+         'thumb':'vladimir.png'
      },
      'ashe':{
          'name':'Ashe',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'ashe.png'
      },
      'braum':{
          'name':'Braum',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'braum.png'
      },
      'gnar':{
          'name':'Gnar',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'gnar.png'
      },
      'jinx':{
          'name':'Jinx',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'jinx.png'
      },
      'kayn':{
          'name':'Kayn',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'kayn.png'
      },
      'lillia':{
          'name':'Lillia',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'lillia.png'
      },
      'nami':{
          'name':'Nami',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'nami.png'
      },
      'qiyana':{
          'name':'Qiyana',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'qiyana.png'
      },
      'shen':{
          'name':'Shen',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'shen.png'
      },
      'thresh':{
          'name':'Thresh',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'thresh.png'
      },
      'tristana':{
          'name':'Tristana',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'tristana.png'
      },
      'twitch':{
          'name':'Twitch',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'twitch.png'
      },
      'yone':{
          'name':'Yone',
          'cost': 2,
-         'thumb':'.png'
+         'thumb':'yone.png'
      },
      'anivia':{
          'name':'Anivia',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'anivia.png'
      },
      'diana':{
          'name':'Diana',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'diana.png'
      },
      'elise':{
          'name':'Elise',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'elise.png'
      },
      'illaoi':{
          'name':'Illaoi',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'illaoi.png'
      },
      'leesin':{
          'name':'Lee Singa',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'leesin.png'
      },
      'lulu':{
          'name':'Lulu',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'lulu.png'
      },
      'nunu':{
          'name':'Nunu',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'nunu.png'
      },
      'olaf':{
          'name':'Olaf',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'olaf.png'
      },
      'ryze':{
          'name':'Ryze',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'ryze.png'
      },
      'swain':{
          'name':'Swain',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'swain.png'
      },
      'sylas':{
          'name':'Sylas',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'sylas.png'
      },
      'varus':{
          'name':'Varus',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'varus.png'
      },
      'volibear':{
          'name':'Volibear',
          'cost': 3,
-         'thumb':'.png'
+         'thumb':'volibear.png'
      },
      'corki':{
          'name':'Corki',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'corki.png'
      },
      'hecarim':{
          'name':'Hecarim',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'hecarim.png'
      },
      'neeko':{
          'name':'Neeko',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'neeko.png'
      },
      'ornn':{
          'name':'Ornn',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'ornn.png'
      },
      'sona':{
          'name':'Sona',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'sona.png'
      },
      'talon':{
          'name':'Talon',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'talon.png'
      },
      'xayah':{
          'name':'Xayah',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'xayah.png'
      },
      'daeja':{
          'name':'Daeja',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'daeja.png'
      },
      'idas':{
          'name':'Idas',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'idas.png'
      },
      'shiohyu':{
          'name':'Shi Oh Yu',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'shiohyu.png'
      },
      'syfen':{
          'name':'Sy\'fen',
          'cost': 4,
-         'thumb':'.png'
+         'thumb':'syfen.png'
      },
      'bard':{
          'name':'Bard',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'bard.png'
      },
      'pyke':{
          'name':'Pyke',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'pyke.png'
      },
      'soraka':{
          'name':'Soraka Flocka Flame',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'soraka.png'
      },
      'yasuo':{
          'name':'Yasuo',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'yasuo.png'
      },
      'zoe':{
          'name':'Zoe',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'zoe.png'
      },
      'aoshin':{
          'name':'Ao Shin',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'aoshin.png'
      },
      'aurelionsol':{
          'name':'Aurelion Sol',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'aurelionsol.png'
      },
      'shyvana':{
          'name':'Shyvana',
          'cost': 5,
-         'thumb':'.png'
+         'thumb':'shyvana.png'
      }
 }
