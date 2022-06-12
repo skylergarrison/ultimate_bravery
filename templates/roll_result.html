@@ -1,11 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div id="synergies"> {{result.trait1}} / {{result.trait2}}</div>
+<div id="synergies"> {{ result.trait1 }} / {{ result.trait2 }}</div>
 <div class="filler">with</div>
-<div id="royal">{{result.royal}}</div>
-<div class="filler">{{result.trait1}}</div>
-<div class="champs">{{result.legal_champs1}}</div>
-<div class="filler">{{result.trait2}}</div>
-<div class="champs">{{result.legal_champs2}}</div>
+<div id="royal">{{ result.royal }}</div>
+<div id="royal_image">
+    <img src="{{ photo }}" alt="Royal Thumbnail">
+</div>
+<div class="filler">{{ result.trait1 }}</div>
+<div class="champs">{{ result.legal_champs1 }}</div>
+<div class="filler">{{ result.trait2 }}</div>
+<div class="champs">{{ result.legal_champs2 }}</div>
 {% endblock %}
