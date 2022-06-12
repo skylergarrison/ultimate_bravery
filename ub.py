@@ -14,11 +14,15 @@ class Ub:
 
         self.all_champs = self.legal_champs1 + self.legal_champs2
 
-        self.royal = random.sample(self.all_champs, 1)[0]['name']
+        self.royal = random.sample(self.all_champs, 1)[0]
+        self.royal_name = self.royal['name']
+        self.royal_thumb = self.royal['thumb']
+        self.royal_cost = self.royal['cost']
+
         self.display_champs1 = ', '.join(x['name'] for x in self.legal_champs1)
         self.display_champs2 = ', '.join(x['name'] for x in self.legal_champs2)
 
-        self.full_filename = os.path.join(self.THUMBNAIL_PATH, 'aatrox.png')
+        self.full_filename = os.path.join(self.THUMBNAIL_PATH, self.royal_thumb)
 
         print(self.trait1 + ' / ' + self.trait2)
         print(self.royal)

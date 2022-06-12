@@ -4,8 +4,20 @@
 <div id="synergies"> {{ result.trait1 }} / {{ result.trait2 }}</div>
 <div class="filler">with</div>
 <div id="royal">
-    <div id="royal-name">{{ result.royal }}</div>
-    <div><img src="{{ result.full_filename }}" alt="Royal Thumbnail"></div>
+    <div id="royal-name">{{ result.royal_name }}</div>
+    <div>
+    {% if result.royal_cost == 1 %}
+        <img src="{{ result.full_filename }}" alt="Royal Thumbnail" style="border: 7px solid #979696; background-color: #979696;">
+    {% elif result.royal_cost == 2 %}
+        <img src="{{ result.full_filename }}" alt="Royal Thumbnail" style="border: 7px solid #027700; background-color: #027700;">
+    {% elif result.royal_cost == 3 %}
+        <img src="{{ result.full_filename }}" alt="Royal Thumbnail" style="border: 7px solid #0245d5; background-color: #0245d5;">
+    {% elif result.royal_cost == 4 %}
+        <img src="{{ result.full_filename }}" alt="Royal Thumbnail" style="border: 7px solid #c302d5; background-color: #c302d5;">
+    {% elif result.royal_cost == 5 %}
+        <img src="{{ result.full_filename }}" alt="Royal Thumbnail" style="border: 7px solid #d5ce02; background-color: #d5ce02;">
+    {% endif %}
+    </div>
 </div>
 <div class="filler">{{ result.trait1 }}</div>
 <div class="champs">{{ result.display_champs1 }}</div>
