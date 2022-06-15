@@ -15,7 +15,8 @@ class Ub:
         self.all_champs = self.legal_champs1 + self.legal_champs2
 
         self.royal = random.sample(self.all_champs, 1)[0]
-        self.royal_name = self.royal['name']
+        self.royal_name = 'Scorpion King' if self.royal['name'] == 'Skarner' else self.royal['name']
+        self.royal_alt = self.royal['name']
         self.royal_thumb = self.royal['thumb']
         self.royal_cost = self.royal['cost']
 
