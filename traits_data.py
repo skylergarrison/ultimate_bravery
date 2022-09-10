@@ -49,7 +49,6 @@ trait_champions = {
         'olaf',
     ],
     'Cannoneer':[
-        'nomsy',
         'graves',
         'zeri',
         'aphelios',
@@ -72,7 +71,6 @@ trait_champions = {
         'karma',
     ],
     'Evoker':[
-        'nomsy',
         'seraphine',
         'zyra',
         'lulu',
@@ -87,7 +85,6 @@ trait_champions = {
         'braum',
     ],
     'Mage':[
-        'nomsy',
         'lux',
         'taliyah',
         'heimerdinger',
@@ -162,7 +159,7 @@ trait_champions = {
         'jax',
         'wukong',
         'soraka',
-        'soraka',
+        'karma',
         'gnar',
     ],
     'Lagoon':[
