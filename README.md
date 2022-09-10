@@ -1,6 +1,8 @@
 Ultimate bravery for impatient fools
 
 run dev with:
+> $env:FLASK_APP='ultimatest_bravest'
+
 > $env:FLASK_ENV='development'
 
 > flask run
