@@ -6,6 +6,7 @@ classes = [
     'Dragonmancer',
     'Evoker',
     'Guardian',
+    'Legend',
     'Mage',
     'Mystic',
     'Shapeshifter',
@@ -14,207 +15,206 @@ classes = [
 ]
 origins = [
     'Astral',
-    'Darkflight',
     'Dragon',
     'Guild',
     'Jade',
-    'Lagoon',
     'Mirage',
     'Ragewing',
+    'Revel',
     'Scalescorn',
     'Shimmerscale',
     'Tempest',
+    'Trainer',
     'Whispers'
 ]
 low_pop_traits = [
     'Bard',
     'Spell-Thief',
-    'Starcaller',
-    'Monolith',
-    'Prodigy'
+    'Starcaller'
 ]
 trait_champions = {
     'Assassin':[
         'diana',
+        'kayn',
+        'pyke',
         'qiyana',
-        'rengar',
-        'nilah'
+        'talon'
     ],
     'Bruiser':[
-        'jax',
-        'malphite',
-        'skarner',
-        'sylas',
-        'syfen',
+        'illaoi',
         'olaf',
+        'ornn',
+        'shen',
+        'skarner',
+        'syfen',
+        'sylas',
+        'tahmkench'
     ],
     'Cannoneer':[
-        'nomsy',
-        'graves',
-        'zeri',
-        'aphelios',
-        'tristana',
+        'corki',
+        'jinx',
         'senna',
+        'tristana'
     ],
     'Cavalier':[
         'hecarim',
-        'nunu',
-        'rell',
-        'sejuani',
         'lillia',
+        'nunu',
+        'sejuani'
     ],
     'Dragonmancer':[
-        'leesin',
-        'kaisa',
-        'rcs',
-        'volibear',
-        'yasuo',
+        'ashe',
         'karma',
+        'leesin',
+        'rcs',
+        'swain',
+        'volibear',
+        'yasuo'
     ],
     'Evoker':[
-        'nomsy',
-        'seraphine',
-        'zyra',
-        'lulu',
+        'anivia',
         'aurelionsol',
+        'lulu',
+        'sona'
     ],
     'Guardian':[
-        'idas',
-        'zac',
-        'leona',
-        'nasus',
-        'rakan',
         'braum',
+        'idas',
+        'leona',
+        'taric',
+        'thresh'
+    ],
+    'Legend':[
+        'anivia',
+        'ornn',
+        'volibear'
     ],
     'Mage':[
-        'nomsy',
-        'lux',
-        'taliyah',
         'heimerdinger',
-        'sohm',
-        'vladimir',
-        'zoe',
-        'sylas',
         'lillia',
+        'nami',
+        'ryze',
+        'sylas',
+        'vladimir',
+        'zoe'
     ],
     'Mystic':[
-        'shiohyu',
-        'seraphine',
-        'rakan',
         'bard',
+        'lulu',
+        'nami',
+        'shiohyu'
     ],
     'Shapeshifter':[
-        'nidalee',
-        'jayce',
-        'shyvana',
+        'elise',
         'gnar',
+        'neeko',
+        'nidalee',
+        'shyvana',
+        'swain'
     ],
     'Swiftshot':[
-        'xayah',
-        'varus',
-        'twitch',
+        'ashe',
         'ezreal',
+        'twitch',
+        'varus',
+        'xayah'
     ],
     'Warrior':[
-        'pantheon',
-        'wukong',
-        'yasuo',
-        'yone',
+        'aatrox',
         'olaf',
+        'shen',
+        'yasuo',
+        'yone'
     ],
     'Astral':[
-        'varus',
-        'lux',
+        'aurelionsol',
+        'illaoi',
+        'nami',
         'nidalee',
         'skarner',
+        'varus',
         'vladimir'
-        'aurelionsol',
-    ],
-    'Darkflight':[
-        'rell',
-        'aphelios',
-        'dts',
-        'rengar'
     ],
     'Dragon':[
-        'nomsy',
-        'shiohyu',
+        'aoshin',
+        'aurelionsol',
+        'daeja',
         'idas',
-        'zippy',
-        'sohm',
-        'dts',
-        'terra',
+        'shiohyu',
         'shyvana',
         'syfen'
-        'daeja',
-        'aurelionsol',
-        'aoshin',
     ],
     'Guild':[
-        'zippy',
-        'twitch',
-        'jayce',
-        'sejuani',
         'bard',
+        'ryze',
+        'sejuani',
+        'talon',
+        'twitch'
     ],
     'Jade':[
-        'shiohyu',
-        'jax',
-        'wukong',
-        'soraka',
-        'soraka',
+        'anivia',
+        'ashe',
         'gnar',
-    ],
-    'Lagoon':[
-        'zeri',
-        'seraphine',
-        'zac',
-        'kaisa',
-        'malphite',
-        'taliyah',
-        'sohm',
-        'nilah',
+        'karma',
+        'neeko',
+        'shiohyu',
+        'soraka',
+        'taric'
     ],
     'Mirage':[
-        'nunu',
-        'leona',
-        'yasuo',
-        'yone',
         'daeja',
+        'leona',
+        'nunu',
+        'yasuo',
+        'yone'
     ],
     'Ragewing':[
-        'xayah',
         'hecarim',
-        'rcs',
-        'rakan',
-        'shyvana',
+        'kayn',
         'senna',
+        'rcs',
+        'shen',
+        'shyvana',
+        'swain',
+        'xayah'
+    ],
+    'Revel':[
+        'corki',
+        'jinx',
+        'sona',
+        'tahmkench'
     ],
     'Scalescorn':[
-        'diana',
         'braum',
-        'olaf',
+        'diana',
         'lillia',
+        'olaf'
     ],
     'Shimmerscale':[
+        'aatrox',
         'idas',
-        'jax',
-        'nasus',
+        'kayn',
         'volibear',
         'zoe'
     ],
     'Tempest':[
-        'graves',
-        'leesin',
-        'qiyana',
-        'ezreal',
         'aoshin',
+        'ezreal',
+        'leesin',
+        'ornn',
+        'qiyana'
+    ],
+    'Trainer':[
+        'heimerdinger',
+        'lulu',
+        'tristana'
     ],
     'Whispers':[
-        'pantheon',
-        'zyra',
-        'sylas',
+        'elise',
+        'pyke',
         'syfen',
+        'sylas',
+        'thresh'
     ],
     'Bard':[
         'bard'
@@ -224,16 +224,15 @@ trait_champions = {
     ],
     'Starcaller':[
         'soraka'
-    ],
-    'Monolith':[
-        'terra'
-    ],
-    'Prodigy':[
-        'nomsy'
-    ],
+    ]
 }
 
 champions_data = {
+     'aatrox':{
+         'name':'Aatrox',
+         'cost': 1,
+         'thumb':'aatrox.png'
+     },
      'ezreal':{
          'name':'Ezreal',
          'cost': 1,
@@ -253,16 +252,6 @@ champions_data = {
          'name':'Leona',
          'cost': 1,
          'thumb':'leona.png'
-     },
-     'malphite':{
-         'name':'Malphite',
-         'cost': 1,
-         'thumb':'malphite.png'
-     },
-     'nasus':{
-         'name':'Nasus',
-         'cost': 1,
-         'thumb':'nasus.png'
      },
      'nidalee':{
          'name':'Nidalee',
@@ -289,25 +278,25 @@ champions_data = {
          'cost': 1,
          'thumb':'skarner.png'
      },
-     'taliyah':{
-         'name':'Taliyah',
+     'tahmkench':{
+         'name':'Tahm Kench',
          'cost': 1,
-         'thumb':'taliyah.png'
+         'thumb':'tahmkench.png'
+     },
+     'taric':{
+         'name':'Taric',
+         'cost': 1,
+         'thumb':'taric.png'
      },
      'vladimir':{
          'name':'Vladimir',
          'cost': 1,
          'thumb':'vladimir.png'
      },
-     'wukong':{
-         'name':'Wukong',
-         'cost': 1,
-         'thumb':'wukong.png'
-     },
-     'aphelios':{
-         'name':'Aphelios',
+     'ashe':{
+         'name':'Ashe',
          'cost': 2,
-         'thumb':'aphelios.png'
+         'thumb':'ashe.png'
      },
      'braum':{
          'name':'Braum',
@@ -319,35 +308,40 @@ champions_data = {
          'cost': 2,
          'thumb':'gnar.png'
      },
-     'jax':{
-         'name':'Jax',
+     'jinx':{
+         'name':'Jinx',
          'cost': 2,
-         'thumb':'jax.png'
+         'thumb':'jinx.png'
      },
-     'kaisa':{
-         'name':'Kai\'Sa',
+     'kayn':{
+         'name':'Kayn',
          'cost': 2,
-         'thumb':'kaisa.png'
+         'thumb':'kayn.png'
      },
      'lillia':{
          'name':'Lillia',
          'cost': 2,
          'thumb':'lillia.png'
      },
-     'lux':{
-         'name':'Lux',
+     'nami':{
+         'name':'Nami',
          'cost': 2,
-         'thumb':'lux.png'
+         'thumb':'nami.png'
      },
      'qiyana':{
          'name':'Qiyana',
          'cost': 2,
          'thumb':'qiyana.png'
      },
-     'rell':{
-         'name':'Rell',
+     'shen':{
+         'name':'Shen',
          'cost': 2,
-         'thumb':'rell.png'
+         'thumb':'shen.png'
+     },
+     'thresh':{
+         'name':'Thresh',
+         'cost': 2,
+         'thumb':'thresh.png'
      },
      'tristana':{
          'name':'Tristana',
@@ -364,20 +358,25 @@ champions_data = {
          'cost': 2,
          'thumb':'yone.png'
      },
-     'zac':{
-         'name':'Zac',
-         'cost': 2,
-         'thumb':'zac.png'
-     },
-     'zyra':{
-         'name':'Zyra',
-         'cost': 2,
-         'thumb':'zyra.png'
+     'anivia':{
+         'name':'Anivia',
+         'cost': 3,
+         'thumb':'anivia.png'
      },
      'diana':{
          'name':'Diana',
          'cost': 3,
          'thumb':'diana.png'
+     },
+     'elise':{
+         'name':'Elise',
+         'cost': 3,
+         'thumb':'elise.png'
+     },
+     'illaoi':{
+         'name':'Illaoi',
+         'cost': 3,
+         'thumb':'illaoi.png'
      },
      'leesin':{
          'name':'Lee Singa',
@@ -399,20 +398,15 @@ champions_data = {
          'cost': 3,
          'thumb':'olaf.png'
      },
-     'rakan':{
-         'name':'Rakan',
+     'ryze':{
+         'name':'Ryze',
          'cost': 3,
-         'thumb':'rakan.png'
+         'thumb':'ryze.png'
      },
-     'rengar':{
-         'name':'Rengar',
+     'swain':{
+         'name':'Swain',
          'cost': 3,
-         'thumb':'rengar.png'
-     },
-     'seraphine':{
-         'name':'Seraphine',
-         'cost': 3,
-         'thumb':'seraphine.png'
+         'thumb':'swain.png'
      },
      'sylas':{
          'name':'Sylas',
@@ -429,45 +423,35 @@ champions_data = {
          'cost': 3,
          'thumb':'volibear.png'
      },
-     'zeri':{
-         'name':'Zeri',
-         'cost': 3,
-         'thumb':'zeri.png'
-     },
-     'nomsy':{
-         'name':'Nomsy',
-         'cost': 3,
-         'thumb':'nomsy.png'
-     },
-     'zippy':{
-         'name':'Zippy',
-         'cost': 3,
-         'thumb':'zippy.png'
-     },
-     'graves':{
-         'name':'Graves',
+     'corki':{
+         'name':'Corki',
          'cost': 4,
-         'thumb':'graves.png'
+         'thumb':'corki.png'
      },
      'hecarim':{
          'name':'Hecarim',
          'cost': 4,
          'thumb':'hecarim.png'
      },
-     'jayce':{
-         'name':'Jayce',
+     'neeko':{
+         'name':'Neeko',
          'cost': 4,
-         'thumb':'jayce.png'
+         'thumb':'neeko.png'
      },
-     'nilah':{
-         'name':'Nilah',
+     'ornn':{
+         'name':'Ornn',
          'cost': 4,
-         'thumb':'nilah.png'
+         'thumb':'ornn.png'
      },
-     'pantheon':{
-         'name':'Pantheon',
+     'sona':{
+         'name':'Sona',
          'cost': 4,
-         'thumb':'pantheon.png'
+         'thumb':'sona.png'
+     },
+     'talon':{
+         'name':'Talon',
+         'cost': 4,
+         'thumb':'talon.png'
      },
      'xayah':{
          'name':'Xayah',
@@ -489,16 +473,6 @@ champions_data = {
          'cost': 4,
          'thumb':'shiohyu.png'
      },
-     'sohm':{
-         'name':'Sohm',
-         'cost': 4,
-         'thumb':'sohm.png'
-     },
-     'dts':{
-         'name':'Dragon Tyrant Swain',
-         'cost': 4,
-         'thumb':'dts.png'
-     },
      'syfen':{
          'name':'Sy\'fen',
          'cost': 4,
@@ -508,6 +482,11 @@ champions_data = {
          'name':'Bard',
          'cost': 5,
          'thumb':'bard.png'
+     },
+     'pyke':{
+         'name':'Pyke',
+         'cost': 5,
+         'thumb':'pyke.png'
      },
      'soraka':{
          'name':'Soraka Flocka Flame',
@@ -538,10 +517,5 @@ champions_data = {
          'name':'Shyvana',
          'cost': 5,
          'thumb':'shyvana.png'
-     },
-     'terra':{
-         'name':'Terra',
-         'cost': 5,
-         'thumb':'terra.png'
-     },
+     }
 }
