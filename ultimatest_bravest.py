@@ -9,3 +9,6 @@ roller = ub.Ub()
 def display_roll():
     roller.roll()
     return render_template('roll_result.html', result=roller)
+
+if __name__ == "__main__":
+    app.run(ssl_context='adhoc')
