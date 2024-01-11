@@ -212,7 +212,7 @@ trait_champions = {
         'ahri',
         'annie',
         'ekko',
-        'garen',
+        'gragas',
         'lulu',
         'seraphine',
         'sona',
