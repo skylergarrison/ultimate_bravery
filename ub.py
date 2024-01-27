@@ -1,16 +1,22 @@
 import random
 import traits_data
+import traits_data_set3
 import os
 
 class Ub:
     THUMBNAIL_PATH = os.path.join('static', 'champ_thumbs')
 
-    def roll(self):
-        self.trait1 = random.sample(traits_data.classes, 1)[0]
-        self.trait2 = random.sample(traits_data.origins, 1)[0]
+    def roll(self, season = 10):
+        if season == 3:
+            self.rolling_data = traits_data_set3
+        elif season == 10:
+            self.rolling_data = traits_data
+        
+        self.trait1 = random.sample(self.rolling_data.classes, 1)[0]
+        self.trait2 = random.sample(self.rolling_data.origins, 1)[0]
 
-        self.legal_champs1 = [traits_data.champions_data[champ] for champ in traits_data.trait_champions[self.trait1]]
-        self.legal_champs2 = [traits_data.champions_data[champ] for champ in traits_data.trait_champions[self.trait2]]
+        self.legal_champs1 = [self.rolling_data.champions_data[champ] for champ in self.rolling_data.trait_champions[self.trait1]]
+        self.legal_champs2 = [self.rolling_data.champions_data[champ] for champ in self.rolling_data.trait_champions[self.trait2]]
 
         self.all_champs = self.legal_champs1 + self.legal_champs2
 
