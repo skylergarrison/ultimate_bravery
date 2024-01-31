@@ -254,7 +254,7 @@ champions_data = {
     'ziggs':{
         'name':'Ziggs',
         'cost': 1,
-        'thumb':'zoe.png',
+        'thumb':'ziggs.png',
     },
     'zoe':{
         'name':'Zoe',
