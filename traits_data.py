@@ -151,7 +151,7 @@ trait_champions = {
         'katarina',
         'qiyana',
         'yone',
-        'zac',
+        'zed',
     ],
     'Dazzler':[
         'bard',
