@@ -1,6 +1,5 @@
 import random
 import traits_data
-import traits_data_set3
 import os
 
 class Ub:
