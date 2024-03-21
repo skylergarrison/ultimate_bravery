@@ -11,7 +11,7 @@ def index():
     return render_template('roll_result.html', result=roller)
 
 @app.route('/set11', methods=['GET', 'POST'])
-def set10():
+def set11():
     roller.roll()
     return render_template('roll_result.html', result=roller)
 
