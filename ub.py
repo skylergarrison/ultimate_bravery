@@ -14,9 +14,6 @@ class Ub:
         elif season == 10:
             self.thumb_path = os.path.join('static', 'champ_thumbs')
             self.rolling_data = traits_data
-
-        if seed != None:
-            return 
         
         self.trait1 = random.sample(self.rolling_data.classes, 1)[0]
         self.trait2 = random.sample(self.rolling_data.origins, 1)[0]
