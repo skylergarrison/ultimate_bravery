@@ -5,7 +5,10 @@ import os
 class Ub:
 
     def roll(self, seed = None, season = 10):
-        random.seed(int(seed))
+        try:
+            random.seed(int(seed))
+        except:
+            return
 
         #old logic for 3.5 nostalgia set that can be used for future nostalgia/concurrent sets
         if season == 3:
@@ -33,13 +36,11 @@ class Ub:
         self.display_champs2 = ', '.join(x['name'] for x in self.legal_champs2)
 
         self.full_filename = os.path.join(self.thumb_path, self.royal_thumb)
-        self.hashed_roll = hash(self.royal['name'] + self.display_champs1 + self.display_champs2)
 
         print(self.trait1 + ' / ' + self.trait2)
         print(self.royal)
         print(self.all_champs)
-        print(hash(self.hashed_roll))
 
         #TODO make it more clear what the auxiliary traits are
-        #TODO persistent seeds
         #TODO roll lobbies
+        #TODO low pop toggle
