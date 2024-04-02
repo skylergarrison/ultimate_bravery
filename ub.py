@@ -44,3 +44,4 @@ class Ub:
         #TODO make it more clear what the auxiliary traits are
         #TODO roll lobbies
         #TODO low pop toggle
+        #TODO copy button
