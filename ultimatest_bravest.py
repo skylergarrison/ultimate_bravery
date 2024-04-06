@@ -1,6 +1,6 @@
-from flask import Flask, request, render_template, redirect
+from flask import Flask, request, render_template, redirect, url_for
 import ub
-import random
+from util_func import eval_bool_string, gen_seed
 
 app = Flask(__name__)
 
@@ -8,19 +8,25 @@ roller = ub.Ub()
 
 @app.route('/')
 def index():
-    seed = str(random.randint(1, 8783818952879679611000))
-    print('Seed is: ' + seed)
-
-    return redirect('/set11?roll=' + seed)
+    return redirect(url_for('set11'))
 
 @app.route('/set11', methods=['GET', 'POST'])
 def set11():
-    if request.args:
-        roller.roll(request.args.get('roll'))
-        return render_template('roll_result.html', result=roller)
-        
+    print(request.args)
+    ign_cls = request.args.get('unified', 'false')
+    low_pop = request.args.get('low_pop', 'false')
+
+    if request.args.get('roll'):
+        seed_val = request.args.get('roll')
     else:
-        return index()
+        return redirect('set11?roll=' + gen_seed() + '&unified=' + ign_cls + '&low_pop=' + low_pop)
+
+    roller.roll(
+            seed = seed_val,
+            ignore_class = eval_bool_string(ign_cls),
+            exclude_low = eval_bool_string(low_pop)
+        )
+    return render_template('roll_result.html', result=roller, ignore=ign_cls, low=low_pop)
 
 if __name__ == '__main__':
     app.run()

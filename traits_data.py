@@ -1,41 +1,4 @@
-origins = [
-    'Dragonlord',
-    'Dryad',
-    'Fated',
-    'Fortune',
-    'Ghostly',
-    'Heavenly',
-    'Inkshadow',
-    'Lovers',
-    'Mythic',
-    'Porcelain',
-    'Storyweaver',
-    'Umbral',
-]
-classes = [
-    'Altruist',
-    'Arcanist',
-    'Artist',
-    'Behemoth',
-    'Bruiser',
-    'Duelist',
-    'Exalted',
-    'Great',
-    'Invoker',
-    'Reaper',
-    'Sage',
-    'Sniper',
-    'Spirit Walker',
-    'Trickshot',
-    'Warden',
-]
-low_pop_traits = [
-    'Lovers',
-    'Artist',
-    'Great',
-    'Spirit Walker',
-]
-trait_champions = {
+origins = {
     'Dragonlord':[
         'diana',
         'janna',
@@ -127,6 +90,9 @@ trait_champions = {
         'yone',
         'yorick',
     ],
+}
+
+classes = {
     'Altruist':[
         'rakan',
         'riven',
@@ -224,6 +190,14 @@ trait_champions = {
         'sett',
     ],
 }
+
+low_pop_traits = [
+    'Lovers',
+    'Artist',
+    'Great',
+    'Spirit Walker',
+]
+
 
 champions_data = {
     'ahri':{

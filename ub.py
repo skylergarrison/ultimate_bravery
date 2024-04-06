@@ -4,7 +4,7 @@ import os
 
 class Ub:
 
-    def roll(self, seed = None, season = 10):
+    def roll(self, seed = None, season = 10, ignore_class = False, exclude_low = False):
         try:
             random.seed(int(seed))
         except:
@@ -17,12 +17,36 @@ class Ub:
         elif season == 10:
             self.thumb_path = os.path.join('static', 'champ_thumbs')
             self.rolling_data = traits_data
-        
-        self.trait1 = random.sample(self.rolling_data.classes, 1)[0]
-        self.trait2 = random.sample(self.rolling_data.origins, 1)[0]
 
-        self.legal_champs1 = [self.rolling_data.champions_data[champ] for champ in self.rolling_data.trait_champions[self.trait1]]
-        self.legal_champs2 = [self.rolling_data.champions_data[champ] for champ in self.rolling_data.trait_champions[self.trait2]]
+        if exclude_low:
+            rolling_origins = dict(self.rolling_data.origins)
+            rolling_classes = dict(self.rolling_data.classes)
+            for trait in self.rolling_data.low_pop_traits:
+                rolling_origins.pop(trait, 0)
+                rolling_classes.pop(trait, 0)
+        else:
+            rolling_origins = self.rolling_data.origins
+            rolling_classes = self.rolling_data.classes
+        
+        if ignore_class:
+            all_attributes = {**rolling_origins, **rolling_classes}
+            roll = random.sample(list(all_attributes.items()), 2)
+            
+            self.trait1 = roll[0][0]
+            self.trait2 = roll[1][0]
+            self.origin_array = roll[0][1]
+            self.class_array = roll[1][1]
+        else:
+            origin_roll = random.sample(list(rolling_origins.items()), 1)[0]
+            class_roll = random.sample(list(rolling_classes.items()), 1)[0]
+
+            self.trait1 = origin_roll[0]
+            self.trait2 = class_roll[0]
+            self.class_array = class_roll[1]
+            self.origin_array = origin_roll[1]
+
+        self.legal_champs1 = [self.rolling_data.champions_data[champ] for champ in self.origin_array]
+        self.legal_champs2 = [self.rolling_data.champions_data[champ] for champ in self.class_array]
 
         self.all_champs = self.legal_champs1 + self.legal_champs2
 
@@ -43,5 +67,4 @@ class Ub:
 
         #TODO make it more clear what the auxiliary traits are
         #TODO roll lobbies
-        #TODO low pop toggle
         #TODO copy button
