@@ -1,12 +1,17 @@
 <!doctype html>
 <html>
-  <title>Ultimate Bravery: The Home of the Brave</title>
+  {% if result.title_string %}
+    <title>{{result.title_string}}</title>
+  {% else %}
+    <title>Ultimate Bravery: The Home of the Brave</title>
+  {% endif %}
   <head>
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     {% endblock %}
   </head>
   <body>
+
     <fieldset id="options">
       <legend>Choose your options, and roll!</legend>
       <form action="{{ url_for('set11') }}">
@@ -17,6 +22,15 @@
         <input type="submit" value="Roll Set 11">
       </form>
     </fieldset>
+
+    <button id="copybutton">Copy Roll</button>
+
+    <script>
+      document.getElementById('copybutton').addEventListener('click', function() {
+        navigator.clipboard.writeText("{{ result.title_string }}".replace('&#39;','\''));
+      })
+    </script>
+
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
         <div>

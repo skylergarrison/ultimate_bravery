@@ -13,8 +13,8 @@ class Ub:
         #old logic for 3.5 nostalgia set that can be used for future nostalgia/concurrent sets
         if season == 3:
             self.thumb_path = os.path.join('static', '3thumbs')
-            self.rolling_data = traits_data_set3
-        elif season == 10:
+            #self.rolling_data = traits_data_set3
+        else:
             self.thumb_path = os.path.join('static', 'champ_thumbs')
             self.rolling_data = traits_data
 
@@ -61,10 +61,10 @@ class Ub:
 
         self.full_filename = os.path.join(self.thumb_path, self.royal_thumb)
 
-        print(self.trait1 + ' / ' + self.trait2)
-        print(self.royal)
+        self.title_string = self.trait1 + ' / ' + self.trait2 + ' with ' + self.royal_name
+
+        print(self.title_string)
         print(self.all_champs)
 
         #TODO make it more clear what the auxiliary traits are
         #TODO roll lobbies
-        #TODO copy button
