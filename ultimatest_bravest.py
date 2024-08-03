@@ -10,7 +10,7 @@ roller = ub.Ub()
 def index():
     return redirect(url_for('set11'))
 
-@app.route('/set11', methods=['GET', 'POST'])
+@app.route('/set12', methods=['GET', 'POST'])
 def set11():
     print(request.args)
     ign_cls = request.args.get('unified', 'false')
