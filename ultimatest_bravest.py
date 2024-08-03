@@ -8,7 +8,7 @@ roller = ub.Ub()
 
 @app.route('/')
 def index():
-    return redirect(url_for('set11'))
+    return redirect(url_for('set12'))
 
 @app.route('/set12', methods=['GET', 'POST'])
 def set11():
