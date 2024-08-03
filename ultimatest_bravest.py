@@ -19,7 +19,7 @@ def set11():
     if request.args.get('roll'):
         seed_val = request.args.get('roll')
     else:
-        return redirect('set11?roll=' + gen_seed() + '&unified=' + ign_cls + '&low_pop=' + low_pop)
+        return redirect('set12?roll=' + gen_seed() + '&unified=' + ign_cls + '&low_pop=' + low_pop)
 
     roller.roll(
             seed = seed_val,
