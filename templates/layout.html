@@ -14,12 +14,18 @@
 
     <fieldset id="options">
       <legend>Choose your options, and roll!</legend>
-      <form action="{{ url_for('set12') }}">
+      <form action="{{ url_for('bravery') }}">
         <input type="checkbox" id="unified_box" name="unified" value="true" {{'checked' if ignore == 'true'}}>
         <label for="unified_box">Roll ignoring origin/class?</label>
         <input type="checkbox" id="pop_box" name="low_pop" value="true" {{'checked' if low == 'true'}}>
         <label for="pop_box">Exclude tiny traits?</label>
-        <input type="submit" value="Roll Set 12">
+
+        <input type="radio" id="current" name="throwback" value="false" {{'checked' if throw == 'false'}}>
+        <label for="current">Roll Set 12</label>
+        <input type="radio" id="throwback" name="throwback" value="true" {{'checked' if throw == 'true'}}>
+        <label for="current">Roll Set 5.5</label>
+
+        <input type="submit" value="Roll">
       </form>
     </fieldset>
 

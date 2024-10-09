@@ -1,0 +1,500 @@
+origins = {
+    'Arcana':[
+        'ahri',
+        'hecarim',
+        'tahm',
+        'xerath',
+    ],
+    'Chrono':[
+        'camille',
+        'jax',
+        'karma',
+        'vex',
+        'zilean',
+    ],
+    'Dragon':[
+        'nomsy',
+        'shyvana',
+        'smolder',
+    ],
+    'Druid':[
+        'wukong',
+    ],
+    'Eldritch':[
+        'ashe',
+        'briar',
+        'elise',
+        'morde',
+        'nami',
+        'nilah',
+        'syndra',
+    ],
+    'Faerie':[
+        'kalista',
+        'katarina',
+        'lillia',
+        'milio',
+        'rakan',
+        'seraphine',
+        'tristana',
+    ],
+    'Frost':[
+        'diana',
+        'hwei',
+        'olaf',
+        'swain',
+        'twitch',
+        'warwick',
+        'zilean',
+    ],
+    'Honeymancy':[
+        'blitzcrank',
+        'kog',
+        'nunu',
+        'veigar',
+        'ziggs',
+    ],
+    'Portal':[
+        'ezreal',
+        'galio',
+        'jayce',
+        'kassadin',
+        'norra',
+        'ryze',
+        'taric',
+        'zoe',
+    ],
+    'Pyro':[
+        'akali',
+        'nasus',
+        'shen',
+        'varus',
+    ],
+    'Ravenous':[
+        'briar',
+    ],
+    'Sugarcraft':[
+        'bard',
+        'gwen',
+        'jinx',
+        'rumble',
+        'soraka',
+    ],
+    'Witchcraft':[
+        'cass',
+        'fiora',
+        'morgana',
+        'neeko',
+        'poppy',
+        'zoe',
+    ],
+}
+
+classes = {
+    'Ascendant':[
+        'xerath',
+    ],
+    'Bastion':[
+        'diana',
+        'hecarim',
+        'lillia',
+        'nunu',
+        'poppy',
+        'shen',
+        'taric',
+    ],
+    'Bat Queen':[
+        'morgana',
+    ],
+    'Best Friends':[
+        'norra',
+    ],
+    'Blaster':[
+        'ezreal',
+        'hwei',
+        'rumble',
+        'smolder',
+        'tristana',
+        'varus',
+    ],
+    'Hunter':[
+        'jinx',
+        'kog',
+        'nomsy',
+        'olaf',
+        'twitch',
+    ],
+    'Incantor':[
+        'cass',
+        'karma',
+        'syndra',
+        'ziggs',
+    ],
+    'Mage':[
+        'galio',
+        'nami',
+        'norra',
+        'seraphine',
+        'soraka',
+        'veigar',
+        'vex',
+    ],
+    'Multistriker':[
+        'akali',
+        'ashe',
+        'camille',
+        'hecarim',
+        'jax',
+        'kalista',
+        'kassadin',
+    ],
+    'Preserver':[
+        'bard',
+        'morgana',
+        'rakan',
+        'zilean',
+    ],
+    'Scholar':[
+        'ahri',
+        'bard',
+        'milio',
+        'ryze',
+        'zoe',
+    ],
+    'Shapeshifter':[
+        'briar',
+        'elise',
+        'jayce',
+        'nasus',
+        'neeko',
+        'shyvana',
+        'swain',
+    ],
+    'Vanguard':[
+        'blitzcrank',
+        'galio',
+        'morde',
+        'rumble',
+        'tahm',
+        'warwick',
+    ],
+    'Warrior':[
+        'akali',
+        'fiora',
+        'gwen',
+        'katarina',
+        'nilah',
+    ],
+}
+
+low_pop_traits = [
+    'Druid',
+    'Ravenous',
+    'Ascendant',
+    'Bat Queen',
+    'Best Friends',
+]
+
+
+champions_data = {
+    'ashe':{
+        'name':'Ashe',
+        'cost': 1,
+        'thumb':'ashe.png',
+    },
+    'blitzcrank':{
+        'name':'Blitz',
+        'cost': 1,
+        'thumb':'blitzcrank.png',
+    },
+    'elise':{
+        'name':'Elise',
+        'cost': 1,
+        'thumb':'elise.png',
+    },
+    'jax':{
+        'name':'Jax',
+        'cost': 1,
+        'thumb':'jax.png',
+    },
+    'jayce':{
+        'name':'Jayce',
+        'cost': 1,
+        'thumb':'jayce.png',
+    },
+    'lillia':{
+        'name':'Lil\' Horse',
+        'cost': 1,
+        'thumb':'lillia.png',
+    },
+    'nomsy':{
+        'name':'NomNomNomsy',
+        'cost': 1,
+        'thumb':'nomsy.png',
+    },
+    'poppy':{
+        'name':'Pooppy',
+        'cost': 1,
+        'thumb':'poppy.png',
+    },
+    'seraphine':{
+        'name':'Seraphine',
+        'cost': 1,
+        'thumb':'seraphine.png',
+    },
+    'soraka':{
+        'name':'Soraka Flocka Flame',
+        'cost': 1,
+        'thumb':'soraka.png',
+    },
+    'twitch':{
+        'name':'Twitch',
+        'cost': 1,
+        'thumb':'twitch.png',
+    },
+    'warwick':{
+        'name':'Warwick',
+        'cost': 1,
+        'thumb':'warwick.png',
+    },
+    'ziggs':{
+        'name':'Ziggs',
+        'cost': 1,
+        'thumb':'ziggs.png',
+    },
+    'zoe':{
+        'name':'Zoe',
+        'cost': 1,
+        'thumb':'zoe.png',
+    },
+    'ahri':{
+        'name':'Ahri',
+        'cost': 2,
+        'thumb':'ahri.png',
+    },
+    'akali':{
+        'name':'Akali',
+        'cost': 2,
+        'thumb':'akali.png',
+    },
+    'cass':{
+        'name':'Cassiopeia',
+        'cost': 2,
+        'thumb':'cass.png',
+    },
+    'galio':{
+        'name':'Galio',
+        'cost': 2,
+        'thumb':'galio.png',
+    },
+    'kassadin':{
+        'name':'Kassadin',
+        'cost': 2,
+        'thumb':'kassadin.png',
+    },
+    'kog':{
+        'name':'Kog\'Maw',
+        'cost': 2,
+        'thumb':'kog.png',
+    },
+    'nilah':{
+        'name':'Nilah',
+        'cost': 2,
+        'thumb':'nilah.png',
+    },
+    'nunu':{
+        'name':'Nunu',
+        'cost': 2,
+        'thumb':'nunu.png',
+    },
+    'rumble':{
+        'name':'Rumble',
+        'cost': 2,
+        'thumb':'rumble.png',
+    },
+    'shyvana':{
+        'name':'Shy Ronnie',
+        'cost': 2,
+        'thumb':'shyvana.png',
+    },
+    'syndra':{
+        'name':'Syndra',
+        'cost': 2,
+        'thumb':'syndra.png',
+    },
+    'tristana':{
+        'name':'Trist',
+        'cost': 2,
+        'thumb':'tristana.png',
+    },
+    'zilean':{
+        'name':'Zilean',
+        'cost': 2,
+        'thumb':'zilean.png',
+    },
+    'bard':{
+        'name':'Brad',
+        'cost': 3,
+        'thumb':'bard.png',
+    },
+    'ezreal':{
+        'name':'Ezreal',
+        'cost': 3,
+        'thumb':'ezreal.png',
+    },
+    'hecarim':{
+        'name':'Hecarim',
+        'cost': 3,
+        'thumb':'hecarim.png',
+    },
+    'hwei':{
+        'name':'Hwei',
+        'cost': 3,
+        'thumb':'hwei.png',
+    },
+    'jinx':{
+        'name':'Jinx',
+        'cost': 3,
+        'thumb':'jinx.png',
+    },
+    'katarina':{
+        'name':'Katarina',
+        'cost': 3,
+        'thumb':'katarina.png',
+    },
+    'morde':{
+        'name':'Mordekaiser',
+        'cost': 3,
+        'thumb':'morde.png',
+    },
+    'neeko':{
+        'name':'Neeko',
+        'cost': 3,
+        'thumb':'neeko.png',
+    },
+    'shen':{
+        'name':'Shen',
+        'cost': 3,
+        'thumb':'shen.png',
+    },
+    'swain':{
+        'name':'Swain',
+        'cost': 3,
+        'thumb':'swain.png',
+    },
+    'veigar':{
+        'name':'Veigar',
+        'cost': 3,
+        'thumb':'veigar.png',
+    },
+    'vex':{
+        'name':'Vex',
+        'cost': 3,
+        'thumb':'vex.png',
+    },
+    'wukong':{
+        'name':'Wukong',
+        'cost': 3,
+        'thumb':'wukong.png',
+    },
+    'fiora':{
+        'name':'Fiora',
+        'cost': 4,
+        'thumb':'fiora.png',
+    },
+    'gwen':{
+        'name':'Gwen',
+        'cost': 4,
+        'thumb':'gwen.png',
+    },
+    'kalista':{
+        'name':'Kalista',
+        'cost': 4,
+        'thumb':'kalista.png',
+    },
+    'karma':{
+        'name':'Karma',
+        'cost': 4,
+        'thumb':'karma.png',
+    },
+    'nami':{
+        'name':'Nami',
+        'cost': 4,
+        'thumb':'nami.png',
+    },
+    'nasus':{
+        'name':'Big Dog',
+        'cost': 4,
+        'thumb':'nasus.png',
+    },
+    'olaf':{
+        'name':'Olaf',
+        'cost': 4,
+        'thumb':'olaf.png',
+    },
+    'rakan':{
+        'name':'Rakan',
+        'cost': 4,
+        'thumb':'rakan.png',
+    },
+    'ryze':{
+        'name':'Ryze',
+        'cost': 4,
+        'thumb':'ryze.png',
+    },
+    'tahm':{
+        'name':'Tahm Kench',
+        'cost': 4,
+        'thumb':'tahm.png',
+    },
+    'taric':{
+        'name':'Taric',
+        'cost': 4,
+        'thumb':'taric.png',
+    },
+    'varus':{
+        'name':'Varus',
+        'cost': 4,
+        'thumb':'varus.png',
+    },
+    'briar':{
+        'name':'Briar',
+        'cost': 5,
+        'thumb':'briar.png',
+    },
+    'camille':{
+        'name':'Camille',
+        'cost': 5,
+        'thumb':'camille.png',
+    },
+    'diana':{
+        'name':'Diana',
+        'cost': 5,
+        'thumb':'diana.png',
+    },
+    'milio':{
+        'name':'Milio',
+        'cost': 5,
+        'thumb':'milio.png',
+    },
+    'morgana':{
+        'name':'Morgana',
+        'cost': 5,
+        'thumb':'morgana.png',
+    },
+    'norra':{
+        'name':'Norra & Yuumi',
+        'cost': 5,
+        'thumb':'norra.png',
+    },
+    'smolder':{
+        'name':'Smolder',
+        'cost': 5,
+        'thumb':'smolder.png',
+    },
+    'xerath':{
+        'name':'Xerath',
+        'cost': 5,
+        'thumb':'xerath.png',
+    },
+}

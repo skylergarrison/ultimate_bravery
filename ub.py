@@ -1,19 +1,20 @@
 import random
-import traits_data
 import os
+import traits_data
+import traits_data_revival
 
 class Ub:
 
-    def roll(self, seed = None, season = 10, ignore_class = False, exclude_low = False):
+    def roll(self, seed = None, throwback = False, ignore_class = False, exclude_low = False):
         try:
             random.seed(int(seed))
         except:
             return
 
         #old logic for 3.5 nostalgia set that can be used for future nostalgia/concurrent sets
-        if season == 3:
-            self.thumb_path = os.path.join('static', '3thumbs')
-            #self.rolling_data = traits_data_set3
+        if throwback:
+            self.thumb_path = os.path.join('static', 'revival_thumbs')
+            self.rolling_data = traits_data_revival
         else:
             self.thumb_path = os.path.join('static', 'champ_thumbs')
             self.rolling_data = traits_data
