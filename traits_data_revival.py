@@ -271,7 +271,7 @@ champions_data = {
     'kennen':{
         'name':'Kennen',
         'cost': 2,
-        'thumb':'kennan.png',
+        'thumb':'kennen.png',
     },
     'nautilus':{
         'name':'Nautilus',
