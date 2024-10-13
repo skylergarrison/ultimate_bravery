@@ -30,5 +30,27 @@ def bravery():
         )
     return render_template('roll_result.html', result=roller, ignore=ign_cls, low=low_pop, throw=tb)
 
+@app.route('/lobby', methods=['GET', 'POST'])
+def lobby():
+    lobby_size = int(request.args.get('lobby_size', '2'))
+    ign_cls = request.args.get('unified', 'false')
+    low_pop = request.args.get('low_pop', 'false')
+    tb = request.args.get('throwback', 'false')
+
+    if request.args.get('roll'):
+        seed_val = request.args.get('roll')
+    else:
+        return redirect('lobby?roll=' + gen_seed() + '&unified=' + ign_cls + '&low_pop=' + low_pop + '&throwback=' + tb)
+
+    for member in range(lobby_size):
+        lobby_rolls = roller.roll(
+            throwback = eval_bool_string(tb),
+            seed = seed_val,
+            ignore_class = eval_bool_string(ign_cls),
+            exclude_low = eval_bool_string(low_pop),
+            lobby_size = 2
+        )
+    return render_template('lobby.html', lobby_rolls=lobby_rolls, result=roller, ignore=ign_cls, low=low_pop, throw=tb)
+
 if __name__ == '__main__':
     app.run()
