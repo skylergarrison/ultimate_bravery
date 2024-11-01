@@ -349,9 +349,9 @@ champions_data = {
         'thumb':'Nidalee.png',
     },
     'nocturne':{
-        'name':'Noctune',
+        'name':'Nocturne',
         'cost': 3,
-        'thumb':'Noctune.png',
+        'thumb':'Nocturne.png',
     },
     'nunu':{
         'name':'Nunu',
