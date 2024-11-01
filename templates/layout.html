@@ -5,43 +5,70 @@
   {% else %}
     <title>Ultimate Bravery: The Home of the Brave</title>
   {% endif %}
+
   <head>
     {% block head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     {% endblock %}
   </head>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav">
+    <div id="hamburger">
+      <div id="myLinks">
+        <a href="{{ url_for('lobby') }}">Create Roll Lobby</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div id="options">
+      <fieldset>
+        <legend>Choose your options, and roll!</legend>
+        <form action="{{ url_for('bravery') }}">
+          <input type="checkbox" id="unified_box" name="unified" value="true" {{'checked' if ignore == 'true'}}>
+          <label for="unified_box">Roll ignoring origin/class?</label>
+          <input type="checkbox" id="pop_box" name="low_pop" value="true" {{'checked' if low == 'true'}}>
+          <label for="pop_box">Exclude tiny traits?</label>
+    
+          <input type="radio" id="current" name="throwback" value="false" {{'checked' if throw == 'false'}}>
+          <label for="current">Roll Set 12</label>
+          <input type="radio" id="throwback" name="throwback" value="true" {{'checked' if throw == 'true'}}>
+          <label for="current">Roll Set 5.5</label>
+    
+          <input type="submit" value="Roll">
+        </form>
+      </fieldset>
+    </div>
+  </div>
+
+  <!-- <button id="copybutton">Copy Roll</button> -->
+
+  <script>
+    document.getElementById('copybutton').addEventListener('click', function() {
+      navigator.clipboard.writeText("{{ result.title_string }}".replace('&#39;','\''));
+    })
+  </script>
+  
   <body>
-
-    <fieldset id="options">
-      <legend>Choose your options, and roll!</legend>
-      <form action="{{ url_for('bravery') }}">
-        <input type="checkbox" id="unified_box" name="unified" value="true" {{'checked' if ignore == 'true'}}>
-        <label for="unified_box">Roll ignoring origin/class?</label>
-        <input type="checkbox" id="pop_box" name="low_pop" value="true" {{'checked' if low == 'true'}}>
-        <label for="pop_box">Exclude tiny traits?</label>
-
-        <input type="radio" id="current" name="throwback" value="false" {{'checked' if throw == 'false'}}>
-        <label for="current">Roll Set 12</label>
-        <input type="radio" id="throwback" name="throwback" value="true" {{'checked' if throw == 'true'}}>
-        <label for="current">Roll Set 5.5</label>
-
-        <input type="submit" value="Roll">
-      </form>
-    </fieldset>
-
-    <!-- <button id="copybutton">Copy Roll</button> -->
-
-    <script>
-      document.getElementById('copybutton').addEventListener('click', function() {
-        navigator.clipboard.writeText("{{ result.title_string }}".replace('&#39;','\''));
-      })
-    </script>
-
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
         <div>
             <span style="color:#d5ce02">Golden Rule:</span> <span style="color:#ffffff">Be brave, you big brave idiot!</span>
         </div>
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+
   </body>
 </html>

@@ -3,6 +3,35 @@
     src: url('PermanentMarker-Regular.ttf');
 }
 
+/* Style the navigation menu */
+.topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    color: black;
+}
+
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#options {
+    font: Helvetica, sans-serif;
+}
+
 #content {
     display: flex;
     flex-direction: column;
@@ -58,8 +87,4 @@
     background-color: black;
     width: 100%;
     height: 4vh;
-}
-
-#options {
-    font: Helvetica, sans-serif;
 }
