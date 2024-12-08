@@ -222,7 +222,7 @@ champions_data = {
         'thumb':'Lux.png',
     },
     'maddie':{
-        'name':'Maddie',
+        'name':'Baddie',
         'cost': 1,
         'thumb':'Maddie.png',
     },
@@ -244,7 +244,7 @@ champions_data = {
     'smeb':{
         'name':'Smeb',
         'cost': 1,
-        'thumb':'Smeb.png',
+        'thumb':'Steb.png',
     },
     'trundle':{
         'name':'Trundle',
@@ -267,7 +267,7 @@ champions_data = {
         'thumb':'Zyra.png',
     },
     'akali':{
-        'name':'Akali',
+        'name':'Akalaki',
         'cost': 2,
         'thumb':'Akali.png',
     },
@@ -287,7 +287,7 @@ champions_data = {
         'thumb':'Nocturne.png',
     },
     'rell':{
-        'name':'Rell',
+        'name':'RillRill',
         'cost': 2,
         'thumb':'Rell.png',
     },
@@ -307,7 +307,7 @@ champions_data = {
         'thumb':'Tristana.png',
     },
     'urgot':{
-        'name':'Urgot',
+        'name':'Urgod',
         'cost': 2,
         'thumb':'Urgot.png',
     },
@@ -347,7 +347,7 @@ champions_data = {
         'thumb':'Ezreal.png',
     },
     'gangplank':{
-        'name':'Gangplank',
+        'name':'GP',
         'cost': 3,
         'thumb':'Gangplank.png',
     },
@@ -372,7 +372,7 @@ champions_data = {
         'thumb':'Nunu.png',
     },
     'renni':{
-        'name':'Renni',
+        'name':'Lenny',
         'cost': 3,
         'thumb':'renni.png',
     },
@@ -382,12 +382,12 @@ champions_data = {
         'thumb':'Scar.png',
     },
     'smeech':{
-        'name':'Smeech',
+        'name':'Big Smeech',
         'cost': 3,
         'thumb':'Smeech.png',
     },
     'swain':{
-        'name':'Swain',
+        'name':'Bird Man',
         'cost': 3,
         'thumb':'Swain.png',
     },
@@ -407,7 +407,7 @@ champions_data = {
         'thumb':'Corki.png',
     },
     'mundo':{
-        'name':'Mundo',
+        'name':'Dr. Mundo',
         'cost': 4,
         'thumb':'DrMundo.png',
     },
@@ -427,7 +427,7 @@ champions_data = {
         'thumb':'Garen.png',
     },
     'heimerdinger':{
-        'name':'Heimerdinger',
+        'name':'Donger',
         'cost': 4,
         'thumb':'Heimerdinger.png',
     },
@@ -474,15 +474,15 @@ champions_data = {
     'leblanc':{
         'name':'LeBlanc',
         'cost': 5,
-        'thumb':'Leblanc.png',
+        'thumb':'LeBlanc.png',
     },
     'malzahar':{
-        'name':'Malzahar',
+        'name':'Malzahaw',
         'cost': 5,
         'thumb':'Malzahar.png',
     },
     'mordekaiser':{
-        'name':'Mordekaiser',
+        'name':'Morde',
         'cost': 5,
         'thumb':'Mordekaiser.png',
     },
