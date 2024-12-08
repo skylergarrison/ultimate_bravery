@@ -474,7 +474,7 @@ champions_data = {
     'leblanc':{
         'name':'LeBlanc',
         'cost': 5,
-        'thumb':'LeBlanc.png',
+        'thumb':'Leblanc.png',
     },
     'malzahar':{
         'name':'Malzahar',
