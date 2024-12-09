@@ -454,7 +454,7 @@ champions_data = {
     'zoe':{
         'name':'Zoe',
         'cost': 4,
-        'thumb':'zoe.png',
+        'thumb':'Zoe.png',
     },
     'caitlyn':{
         'name':'Caitlyn',
@@ -474,7 +474,7 @@ champions_data = {
     'leblanc':{
         'name':'LeBlanc',
         'cost': 5,
-        'thumb':'LeBlanc.png',
+        'thumb':'Leblanc.png',
     },
     'malzahar':{
         'name':'Malzahaw',
