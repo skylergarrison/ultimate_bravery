@@ -374,7 +374,7 @@ champions_data = {
     'renni':{
         'name':'Lenny',
         'cost': 3,
-        'thumb':'renni.png',
+        'thumb':'Renni.png',
     },
     'scar':{
         'name':'Scar',
