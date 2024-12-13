@@ -394,7 +394,7 @@ champions_data = {
     'tf':{
         'name':'TF',
         'cost': 3,
-        'thumb':'tf.png',
+        'thumb':'TwistedFate.png',
     },
     'ambessa':{
         'name':'Ambessa',
