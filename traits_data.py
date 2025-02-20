@@ -194,7 +194,6 @@ low_pop_traits = [
     'Junker King',
 ]
 
-
 champions_data = {
     'amumu':{
         'name':'Amumu',
@@ -202,7 +201,7 @@ champions_data = {
         'thumb':'Amumu.png',
     },
     'darius':{
-        'name':'Darius',
+        'name':'Downright Darius',
         'cost': 1,
         'thumb':'Darius.png',
     },
