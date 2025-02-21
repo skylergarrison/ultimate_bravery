@@ -274,7 +274,7 @@ champions_data = {
     'jarvan':{
         'name':'Jarvan',
         'cost': 2,
-        'thumb':'Jarvan.png',
+        'thumb':'JarvanIV.png',
     },
     'jax':{
         'name':'Jax',
@@ -461,7 +461,7 @@ champions_data = {
         'cost': 5,
         'thumb':'Samira.png',
     },
-    'sett':{
+    'rcs':{
         'name':'Sett',
         'cost': 5,
         'thumb':'Sett.png',
