@@ -206,7 +206,7 @@ champions_data = {
     'annie':{
         'name':'Annie',
         'cost': 1,
-        'thumb':'annie.png',
+        'thumb':'Annie.png',
     },
     'corki':{
         'name':'Corki',
@@ -231,7 +231,7 @@ champions_data = {
     'kennen':{
         'name':'Kennen',
         'cost': 1,
-        'thumb':'kennen.png',
+        'thumb':'Kennen.png',
     },
     'lillia':{
         'name':'Lil\' Horse',
@@ -246,7 +246,7 @@ champions_data = {
     'olaf':{
         'name':'Olaf',
         'cost': 1,
-        'thumb':'olaf.png',
+        'thumb':'Olaf.png',
     },
     'tahm':{
         'name':'Froge',
@@ -261,12 +261,12 @@ champions_data = {
     'vi':{
         'name':'Vi',
         'cost': 1,
-        'thumb':'vi.png',
+        'thumb':'Vi.png',
     },
     'yasuo':{
         'name':'Anime Guy',
         'cost': 1,
-        'thumb':'yasuo.png',
+        'thumb':'Yasuo.png',
     },
     'aphelios':{
         'name':'Aphelios',
@@ -281,7 +281,7 @@ champions_data = {
     'garen':{
         'name':'Garen',
         'cost': 2,
-        'thumb':'garen.png',
+        'thumb':'Garen.png',
     },
     'gnar':{
         'name':'Gnar',
@@ -296,7 +296,7 @@ champions_data = {
     'jax':{
         'name':'Jax',
         'cost': 2,
-        'thumb':'jax.png',
+        'thumb':'Jax.png',
     },
     'kaisa':{
         'name':'Kai\'sa',
@@ -306,12 +306,12 @@ champions_data = {
     'katarina':{
         'name':'Katarina',
         'cost': 2,
-        'thumb':'katarina.png',
+        'thumb':'Katarina.png',
     },
     'kayle':{
         'name':'Kayle',
         'cost': 2,
-        'thumb':'kayle.png',
+        'thumb':'Kayle.png',
     },
     'pantheon':{
         'name':'Pantheon',
@@ -346,7 +346,7 @@ champions_data = {
     'lulu':{
         'name':'Lulu',
         'cost': 3,
-        'thumb':'lulu.png',
+        'thumb':'Lulu.png',
     },
     'lux':{
         'name':'Lux',
@@ -366,7 +366,7 @@ champions_data = {
     'neeko':{
         'name':'Neeko',
         'cost': 3,
-        'thumb':'neeko.png',
+        'thumb':'Neeko.png',
     },
     'riven':{
         'name':'Riven',
@@ -376,12 +376,12 @@ champions_data = {
     'samira':{
         'name':'Samira',
         'cost': 3,
-        'thumb':'samira.png',
+        'thumb':'Samira.png',
     },
     'sett':{
         'name':'RCS',
         'cost': 3,
-        'thumb':'sett.png',
+        'thumb':'Sett.png',
     },
     'urgot':{
         'name':'Urgot',
@@ -396,7 +396,7 @@ champions_data = {
     'yone':{
         'name':'Yone Zone',
         'cost': 3,
-        'thumb':'yone.png',
+        'thumb':'Yone.png',
     },
     'ahri':{
         'name':'Ahri',
@@ -406,7 +406,7 @@ champions_data = {
     'akali':{
         'name':'Akali',
         'cost': 4,
-        'thumb':'akali.png',
+        'thumb':'Akali.png',
     },
     'akali2':{
         'name':'Akali',
@@ -461,12 +461,12 @@ champions_data = {
     'zed':{
         'name':'Jed',
         'cost': 4,
-        'thumb':'zed.png',
+        'thumb':'Zed.png',
     },
     'illaoi':{
         'name':'Illaoi',
         'cost': 5,
-        'thumb':'Illaoi.png',
+        'thumb':'illaoi.png',
     },
     'jhin':{
         'name':'Jhin',
