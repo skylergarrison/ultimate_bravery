@@ -1,191 +1,147 @@
 origins = {
-    'Anima Squad':[
-        'aurora',
-        'illaoi',
+    'Battle Academia':[
+        'caitlyn',
+        'ezreal',
+        'garen',
+        'jayce',
+        'katarina',
         'leona',
-        'seraphine',
-        'sylas',
-        'vayne',
-        'xayah',
+        'rakan',
         'yuumi',
     ],
-    'BoomBots':[
-        'chogath',
-        'fiddlesticks',
-        'kogmaw',
-        'skarner',
-        'urgot',
-    ],
-    'Cyberboss':[
-        'kobuko',
-        'poppy',
-        'veigar',
-        'ziggs',
-    ],
-    'Cypher':[
-        'draven',
-        'galio',
-        'leblanc',
+    'Crystal Gambit':[
+        'ashe',
+        'janna',
+        'swain',
+        'syndra',
         'vi',
-        'zed',
-    ],
-    'Divinicorp':[
-        'gragas',
-        'morgana',
-        'renekton',
-        'rhaast',
-        'senna',
-        'vex',
-    ],
-    'Exotech':[
-        'jax',
-        'jhin',
-        'mordekaiser',
-        'naafiri',
-        'sejuani',
-        'varus',
-        'zeri',
-    ],
-    'God of the Net':[
-        'garen',
-    ],
-    'Golden Ox':[
-        'alistar',
-        'annie',
-        'aphelios',
-        'graves',
-        'jarvan',
-        'viego',
-    ],
-    'Nitro':[
-        'elise',
-        'kindred',
-        'nidalee',
-        'shyvana',
-    ],
-    'Overlord':[
-        'renekton',
-    ],
-    'Soul Killer':[
-        'viego',
-    ],
-    'Street Demon':[
-        'brand',
-        'mundo',
-        'illaoi',
-        'jinx',
-        'neeko',
-        'rengar',
-        'samira',
         'zyra',
     ],
-    'Syndicate':[
+    'Luchador':[
         'braum',
-        'darius',
-        'mf',
-        'shaco',
+        'mundo',
+        'gnar',
+        'volibear',
+    ],
+    'Mentor':[
+        'kobuko',
+        'ryze',
+        'udyr',
+        'yasuo',
+    ],
+    'Mighty Mech':[
+        'aatrox',
+        'gangplank',
+        'jarvan',
+        'karma',
+        'lucian',
+        'senna',
+        'yone',
+    ],
+    'Monster Trainer':[
+        'kogmaw',
+        'lulu',
+        'rammus',
+        'smolder',
+    ],
+    'Rogue Captain':[
         'tf',
     ],
-    'Virus':[
+    'Rosemother':[
+        'zyra',
+    ],
+    'Soul Fighter':[
+        'gwen',
+        'kalista',
+        'lux',
+        'naafiri',
+        'samira',
+        'sett',
+        'viego',
+        'xinzhao',
+    ],
+    'Stance Master':[
+        'leesin',
+    ],
+    'Star Guardian':[
+        'ahri',
+        'jinx',
+        'neeko',
+        'poppy',
+        'rell',
+        'seraphine',
+        'xayah',
+    ],
+    'Supreme Cells':[
+        'akali',
+        'darius',
+        'kaisa',
+        'kennen',
+    ],
+    'The Champ':[
+        'braum',
+    ],
+    'The Crew':[
+        'malphite',
+        'shen',
+        'sivir',
+        'ziggs',
+    ],
+    'Wraith':[
+        'jhin',
+        'ksante',
+        'kayle',
+        'malzahar',
+        'varus',
         'zac',
     ],
 }
 
 classes = {
-    'A.M.P.':[
+    'amp':[
         'annie',
-        'naafiri',
-        'nidalee',
-        'samira',
-        'yuumi',
+        'annie',
+        'annie',
+        'annie',
+        'annie',
+        'annie',
+        'annie',
+        'annie',
     ],
-    'Bastion':[
-        'galio',
-        'illaoi',
-        'jax',
-        'poppy',
-        'renekton',
-        'sejuani',
-        'shyvana',
+    'amp':[
+        'annie',
     ],
-    'Bruiser':[
-        'alistar',
-        'chogath',
-        'darius',
-        'mundo',
-        'gragas',
-        'kobuko',
-        'mordekaiser',
+    'amp':[
+        'annie',
     ],
-    'Dynamo':[
-        'aurora',
-        'elise',
-        'jhin',
-        'mf',
-        'morgana',
+    'amp':[
+        'annie',
     ],
-    'Executioner':[
-        'graves',
-        'rengar',
-        'urgot',
-        'varus',
-        'vex',
+    'amp':[
+        'annie',
     ],
-    'Marksman':[
-        'aphelios',
-        'jhin',
-        'jinx',
-        'kindred',
-        'xayah',
+    'amp':[
+        'annie',
     ],
-    'Rapidfire':[
-        'draven',
-        'kindred',
-        'kogmaw',
-        'tf',
-        'zeri',
+    'amp':[
+        'annie',
     ],
-    'Slayer':[
-        'mundo',
-        'jarvan',
-        'senna',
-        'shaco',
-        'vayne',
-        'zed',
+    'amp':[
+        'annie',
     ],
-    'Strategist':[
-        'ekko',
-        'leblanc',
-        'neeko',
-        'yuumi',
-        'ziggs',
+    'amp':[
+        'annie',
     ],
-    'Techie':[
-        'brand',
-        'fiddlesticks',
-        'mordekaiser',
-        'seraphine',
-        'shyvana',
-        'veigar',
-        'viego',
-        'zyra',
+    'amp':[
+        'annie',
     ],
-    'Vanguard':[
-        'braum',
-        'jarvan',
-        'leona',
-        'rhaast',
-        'skarner',
-        'sylas',
-        'vi',
+    'amp':[
+        'annie',
     ],
 }
 
 low_pop_traits = [
-    'God of the Net',
-    'Overlord',
-    'Soul Killer',
-    'Virus',
+    '',
 ]
 
 champions_data = {
@@ -193,300 +149,5 @@ champions_data = {
         'name':'Alistar',
         'cost': 1,
         'thumb':'Alistar.png',
-    },
-    'mundo':{
-        'name':'Dr. Mundo',
-        'cost': 1,
-        'thumb':'DrMundo.png',
-    },
-    'jax':{
-        'name':'Jax',
-        'cost': 1,
-        'thumb':'Jax.png',
-    },
-    'kindred':{
-        'name':'Kindred',
-        'cost': 1,
-        'thumb':'Kindred.png',
-    },
-    'kogmaw':{
-        'name':'Kog\'Maw',
-        'cost': 1,
-        'thumb':'KogMaw.png',
-    },
-    'morgana':{
-        'name':'Morgana',
-        'cost': 1,
-        'thumb':'Morgana.png',
-    },
-    'nidalee':{
-        'name':'Nidalee',
-        'cost': 1,
-        'thumb':'Nidalee.png',
-    },
-    'poppy':{
-        'name':'Poppy',
-        'cost': 1,
-        'thumb':'Poppy.png',
-    },
-    'seraphine':{
-        'name':'Seraphine',
-        'cost': 1,
-        'thumb':'Seraphine.png',
-    },
-    'shaco':{
-        'name':'Shaco',
-        'cost': 1,
-        'thumb':'Shaco.png',
-    },
-    'sylas':{
-        'name':'Sylas',
-        'cost': 1,
-        'thumb':'Sylas.png',
-    },
-    'vi':{
-        'name':'Vi',
-        'cost': 1,
-        'thumb':'Vi.png',
-    },
-    'zyra':{
-        'name':'Zyra',
-        'cost': 1,
-        'thumb':'Zyra.png',
-    },
-    'darius':{
-        'name':'Darius',
-        'cost': 2,
-        'thumb':'Darius.png',
-    },
-    'ekko':{
-        'name':'Ekko',
-        'cost': 2,
-        'thumb':'Ekko.png',
-    },
-    'graves':{
-        'name':'Graves',
-        'cost': 2,
-        'thumb':'Graves.png',
-    },
-    'illaoi':{
-        'name':'Illaoi',
-        'cost': 2,
-        'thumb':'Illaoi.png',
-    },
-    'jhin':{
-        'name':'Jhin',
-        'cost': 2,
-        'thumb':'Jhin.png',
-    },
-    'leblanc':{
-        'name':'LeBlanc',
-        'cost': 2,
-        'thumb':'Leblanc.png',
-    },
-    'naafiri':{
-        'name':'Naafiri',
-        'cost': 2,
-        'thumb':'Naafiri.png',
-    },
-    'rhaast':{
-        'name':'Rhaast',
-        'cost': 2,
-        'thumb':'Rhaast.png',
-    },
-    'shyvana':{
-        'name':'Shyvana',
-        'cost': 2,
-        'thumb':'Shyvana.png',
-    },
-    'skarner':{
-        'name':'Skarner',
-        'cost': 2,
-        'thumb':'Skarner.png',
-    },
-    'tf':{
-        'name':'TF',
-        'cost': 2,
-        'thumb':'TwistedFate.png',
-    },
-    'vayne':{
-        'name':'Vayne',
-        'cost': 2,
-        'thumb':'Vayne.png',
-    },
-    'veigar':{
-        'name':'Veigar',
-        'cost': 2,
-        'thumb':'Veigar.png',
-    },
-    'braum':{
-        'name':'Braum',
-        'cost': 3,
-        'thumb':'Braum.png',
-    },
-    'draven':{
-        'name':'Draven',
-        'cost': 3,
-        'thumb':'Draven.png',
-    },
-    'elise':{
-        'name':'Elise',
-        'cost': 3,
-        'thumb':'Elise.png',
-    },
-    'fiddlesticks':{
-        'name':'Fiddlesticks',
-        'cost': 3,
-        'thumb':'Fiddlesticks.png',
-    },
-    'galio':{
-        'name':'Galio',
-        'cost': 3,
-        'thumb':'Galio.png',
-    },
-    'gragas':{
-        'name':'Gragas',
-        'cost': 3,
-        'thumb':'Gragas.png',
-    },
-    'jarvan':{
-        'name':'J4',
-        'cost': 3,
-        'thumb':'JarvanIV.png',
-    },
-    'jinx':{
-        'name':'Jinx',
-        'cost': 3,
-        'thumb':'Jinx.png',
-    },
-    'mordekaiser':{
-        'name':'Mordekaiser',
-        'cost': 3,
-        'thumb':'Mordekaiser.png',
-    },
-    'rengar':{
-        'name':'Rengar',
-        'cost': 3,
-        'thumb':'Rengar.png',
-    },
-    'senna':{
-        'name':'Senna',
-        'cost': 3,
-        'thumb':'Senna.png',
-    },
-    'varus':{
-        'name':'Varus',
-        'cost': 3,
-        'thumb':'Varus.png',
-    },
-    'yuumi':{
-        'name':'Yuumi',
-        'cost': 3,
-        'thumb':'Yuumi.png',
-    },
-    'annie':{
-        'name':'Annie',
-        'cost': 4,
-        'thumb':'Annie.png',
-    },
-    'aphelios':{
-        'name':'Aphelios',
-        'cost': 4,
-        'thumb':'Aphelios.png',
-    },
-    'brand':{
-        'name':'MyBrand',
-        'cost': 4,
-        'thumb':'Brand.png',
-    },
-    'chogath':{
-        'name':'Cho\'Gath',
-        'cost': 4,
-        'thumb':'ChoGath.png',
-    },
-    'leona':{
-        'name':'Leona',
-        'cost': 4,
-        'thumb':'Leona.png',
-    },
-    'mf':{
-        'name':'MF',
-        'cost': 4,
-        'thumb':'MissFortune.png',
-    },
-    'neeko':{
-        'name':'Neekoniikonii',
-        'cost': 4,
-        'thumb':'Neeko.png',
-    },
-    'sejuani':{
-        'name':'Shejuani',
-        'cost': 4,
-        'thumb':'Sejuani.png',
-    },
-    'vex':{
-        'name':'Vex',
-        'cost': 4,
-        'thumb':'Vex.png',
-    },
-    'xayah':{
-        'name':'Xayah',
-        'cost': 4,
-        'thumb':'Xayah.png',
-    },
-    'zed':{
-        'name':'Zed',
-        'cost': 4,
-        'thumb':'Zed.png',
-    },
-    'zeri':{
-        'name':'Zeri',
-        'cost': 4,
-        'thumb':'Zeri.png',
-    },
-    'ziggs':{
-        'name':'Ziggs',
-        'cost': 4,
-        'thumb':'Ziggs.png',
-    },
-    'aurora':{
-        'name':'Aurora',
-        'cost': 5,
-        'thumb':'Aurora.png',
-    },
-    'garen':{
-        'name':'Garen',
-        'cost': 5,
-        'thumb':'Garen.png',
-    },
-    'kobuko':{
-        'name':'Kobuko',
-        'cost': 5,
-        'thumb':'Kobuko.png',
-    },
-    'renekton':{
-        'name':'Renekton',
-        'cost': 5,
-        'thumb':'Renekton.png',
-    },
-    'samira':{
-        'name':'Samira',
-        'cost': 5,
-        'thumb':'Samira.png',
-    },
-    'urgot':{
-        'name':'Urgot',
-        'cost': 5,
-        'thumb':'Urgot.png',
-    },
-    'viego':{
-        'name':'Viego',
-        'cost': 5,
-        'thumb':'Viego.png',
-    },
-    'zac':{
-        'name':'Zac',
-        'cost': 5,
-        'thumb':'Zac.png',
     },
 }
