@@ -86,6 +86,7 @@ origins = {
         'shen',
         'sivir',
         'ziggs',
+        'tf'
     ],
     'Wraith':[
         'jhin',
@@ -98,56 +99,423 @@ origins = {
 }
 
 classes = {
-    'amp':[
-        'annie',
-        'annie',
-        'annie',
-        'annie',
-        'annie',
-        'annie',
-        'annie',
-        'annie',
+    'Bastion':[
+        'braum',
+        'garen',
+        'leona',
+        'rell',
+        'shen',
+        'swain',
+        'xinzhao',
     ],
-    'amp':[
-        'annie',
+    'Duelist':[
+        'ashe',
+        'gangplank',
+        'kaisa',
+        'kayle',
+        'leesin',
+        'udyr',
+        'viego',
     ],
-    'amp':[
-        'annie',
+    'Edgelord':[
+        'samira',
+        'shen',
+        'volibear',
+        'xayah',
+        'yasuo',
+        'yone',
     ],
-    'amp':[
-        'annie',
+    'Executioner':[
+        'akali',
+        'kalista',
+        'katarina',
+        'leesin',
+        'ryze',
+        'senna',
     ],
-    'amp':[
-        'annie',
+    'Heavyweight':[
+        'aatrox',
+        'darius',
+        'jayce',
+        'kobuko',
+        'poppy',
+        'zac',
     ],
-    'amp':[
-        'annie',
+    'Juggernaut':[
+        'aatrox',
+        'mundo',
+        'leesin',
+        'naafiri',
+        'sett',
+        'udyr',
+        'vi',
     ],
-    'amp':[
-        'annie',
+    'Prodigy':[
+        'ezreal',
+        'malzahar',
+        'seraphine',
+        'syndra',
+        'yuumi',
     ],
-    'amp':[
-        'annie',
+    'Protector':[
+        'janna',
+        'ksante',
+        'kennen',
+        'malphite',
+        'neeko',
+        'rakan',
     ],
-    'amp':[
-        'annie',
+    'Sniper':[
+        'caitlyn',
+        'gnar',
+        'jhin',
+        'jinx',
+        'sivir',
+        'varus',
     ],
-    'amp':[
-        'annie',
+    'Sorcerer':[
+        'ahri',
+        'gwen',
+        'karma',
+        'kennen',
+        'lucian',
+        'lux',
+        'swain',
     ],
-    'amp':[
-        'annie',
+    'Strategist':[
+        'janna',
+        'jarvan',
+        'ryze',
+        'ziggs',
     ],
 }
 
 low_pop_traits = [
-    '',
+    'The Champ',
+    'Stance Master',
+    'Rosemother',
+    'Rogue Captain',
 ]
 
 champions_data = {
-    'alistar':{
-        'name':'Alistar',
+    'aatrox':{
+        'name':'A.A. Trox',
         'cost': 1,
-        'thumb':'Alistar.png',
+        'thumb':'Aatrox.png',
+    },
+    'ezreal':{
+        'name':'Ezreal',
+        'cost': 1,
+        'thumb':'Ezreal.png',
+    },
+    'garen':{
+        'name':'Garen',
+        'cost': 1,
+        'thumb':'Garen.png',
+    },
+    'gnar':{
+        'name':'Gnar',
+        'cost': 1,
+        'thumb':'Gnar.png',
+    },
+    'kalista':{
+        'name':'Kalista',
+        'cost': 1,
+        'thumb':'Kalista.png',
+    },
+    'kayle':{
+        'name':'Kayle',
+        'cost': 1,
+        'thumb':'Kayle.png',
+    },
+    'kennen':{
+        'name':'Kennen',
+        'cost': 1,
+        'thumb':'Kennen.png',
+    },
+    'lucian':{
+        'name':'Lucian',
+        'cost': 1,
+        'thumb':'Lucian.png',
+    },
+    'malphite':{
+        'name':'Malphite',
+        'cost': 1,
+        'thumb':'Malphite.png',
+    },
+    'naafiri':{
+        'name':'Naafiri',
+        'cost': 1,
+        'thumb':'Naafiri.png',
+    },
+    'rell':{
+        'name':'Rell',
+        'cost': 1,
+        'thumb':'Rell.png',
+    },
+    'sivir':{
+        'name':'Sivir',
+        'cost': 1,
+        'thumb':'Sivir.png',
+    },
+    'syndra':{
+        'name':'Syndra',
+        'cost': 1,
+        'thumb':'Syndra.png',
+    },
+    'zac':{
+        'name':'Zac',
+        'cost': 1,
+        'thumb':'Zac.png',
+    },
+    'mundo':{
+        'name':'Mundo',
+        'cost': 2,
+        'thumb':'Mundo.png',
+    },
+    'gangplank':{
+        'name':'Gangplank',
+        'cost': 2,
+        'thumb':'Gangplank.png',
+    },
+    'janna':{
+        'name':'Janna',
+        'cost': 2,
+        'thumb':'Janna.png',
+    },
+    'jhin':{
+        'name':'Jhin',
+        'cost': 2,
+        'thumb':'Jhin.png',
+    },
+    'kaisa':{
+        'name':'Kaisa',
+        'cost': 2,
+        'thumb':'Kaisa.png',
+    },
+    'katarina':{
+        'name':'Katarina',
+        'cost': 2,
+        'thumb':'Katarina.png',
+    },
+    'kobuko':{
+        'name':'Kobuko',
+        'cost': 2,
+        'thumb':'Kobuko.png',
+    },
+    'lux':{
+        'name':'Lux',
+        'cost': 2,
+        'thumb':'Lux.png',
+    },
+    'rakan':{
+        'name':'Rakan',
+        'cost': 2,
+        'thumb':'Rakan.png',
+    },
+    'shen':{
+        'name':'Shen',
+        'cost': 2,
+        'thumb':'Shen.png',
+    },
+    'vi':{
+        'name':'Vi',
+        'cost': 2,
+        'thumb':'Vi.png',
+    },
+    'xayah':{
+        'name':'Xayah',
+        'cost': 2,
+        'thumb':'Xayah.png',
+    },
+    'xinzhao':{
+        'name':'Xin Zhao',
+        'cost': 2,
+        'thumb':'XinZhao.png',
+    },
+    'ahri':{
+        'name':'Ahri',
+        'cost': 3,
+        'thumb':'Ahri.png',
+    },
+    'caitlyn':{
+        'name':'Caitlyn',
+        'cost': 3,
+        'thumb':'Caitlyn.png',
+    },
+    'darius':{
+        'name':'Darius',
+        'cost': 3,
+        'thumb':'Darius.png',
+    },
+    'jayce':{
+        'name':'Jayce',
+        'cost': 3,
+        'thumb':'Jayce.png',
+    },
+    'kogmaw':{
+        'name':'Kog\'Maw',
+        'cost': 3,
+        'thumb':'KogMaw.png',
+    },
+    'lulu':{
+        'name':'Lulu',
+        'cost': 3,
+        'thumb':'Lulu.png',
+    },
+    'malzahar':{
+        'name':'Malzahar',
+        'cost': 3,
+        'thumb':'Malzahar.png',
+    },
+    'neeko':{
+        'name':'Neeko',
+        'cost': 3,
+        'thumb':'Neeko.png',
+    },
+    'rammus':{
+        'name':'Rammus',
+        'cost': 3,
+        'thumb':'Rammus.png',
+    },
+    'senna':{
+        'name':'Senna',
+        'cost': 3,
+        'thumb':'Senna.png',
+    },
+    'smolder':{
+        'name':'Smolder',
+        'cost': 3,
+        'thumb':'Smolder.png',
+    },
+    'swain':{
+        'name':'Swain',
+        'cost': 3,
+        'thumb':'Swain.png',
+    },
+    'udyr':{
+        'name':'Udyr',
+        'cost': 3,
+        'thumb':'Udyr.png',
+    },
+    'viego':{
+        'name':'Viego',
+        'cost': 3,
+        'thumb':'Viego.png',
+    },
+    'yasuo':{
+        'name':'Yasuo',
+        'cost': 3,
+        'thumb':'Yasuo.png',
+    },
+    'ziggs':{
+        'name':'Ziggs',
+        'cost': 3,
+        'thumb':'Ziggs.png',
+    },
+    'akali':{
+        'name':'Akali',
+        'cost': 4,
+        'thumb':'Akali.png',
+    },
+    'ashe':{
+        'name':'Ashe',
+        'cost': 4,
+        'thumb':'Ashe.png',
+    },
+    'jarvan':{
+        'name':'Jarvan',
+        'cost': 4,
+        'thumb':'JarvanIV.png',
+    },
+    'jinx':{
+        'name':'Jinx',
+        'cost': 4,
+        'thumb':'Jinx.png',
+    },
+    'ksante':{
+        'name':'K\'Sante',
+        'cost': 4,
+        'thumb':'Ksante.png',
+    },
+    'karma':{
+        'name':'Karma',
+        'cost': 4,
+        'thumb':'Karma.png',
+    },
+    'leona':{
+        'name':'Leona',
+        'cost': 4,
+        'thumb':'Leona.png',
+    },
+    'poppy':{
+        'name':'Poppy',
+        'cost': 4,
+        'thumb':'Poppy.png',
+    },
+    'ryze':{
+        'name':'Ryze',
+        'cost': 4,
+        'thumb':'Ryze.png',
+    },
+    'samira':{
+        'name':'Samira',
+        'cost': 4,
+        'thumb':'Samira.png',
+    },
+    'sett':{
+        'name':'Sett',
+        'cost': 4,
+        'thumb':'Sett.png',
+    },
+    'volibear':{
+        'name':'Volibear',
+        'cost': 4,
+        'thumb':'Volibear.png',
+    },
+    'yuumi':{
+        'name':'Yuumi',
+        'cost': 4,
+        'thumb':'Yuumi.png',
+    },
+    'braum':{
+        'name':'Braum',
+        'cost': 5,
+        'thumb':'Braum.png',
+    },
+    'gwen':{
+        'name':'Gwen',
+        'cost': 5,
+        'thumb':'Gwen.png',
+    },
+    'leesin':{
+        'name':'Lee Sin',
+        'cost': 5,
+        'thumb':'leesin.png',
+    },
+    'seraphine':{
+        'name':'Seraphine',
+        'cost': 5,
+        'thumb':'Seraphine.png',
+    },
+    'tf':{
+        'name':'Twistedfate',
+        'cost': 5,
+        'thumb':'Twistedfate.png',
+    },
+    'varus':{
+        'name':'Varus',
+        'cost': 5,
+        'thumb':'Varus.png',
+    },
+    'yone':{
+        'name':'Yone',
+        'cost': 5,
+        'thumb':'Yone.png',
+    },
+    'zyra':{
+        'name':'Zyra',
+        'cost': 5,
+        'thumb':'Zyra.png',
     },
 }
