@@ -436,7 +436,7 @@ champions_data = {
     'ksante':{
         'name':'K\'Sante',
         'cost': 4,
-        'thumb':'Ksante.png',
+        'thumb':'KSante.png',
     },
     'karma':{
         'name':'Karma',
