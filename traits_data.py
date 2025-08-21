@@ -271,7 +271,7 @@ champions_data = {
     'mundo':{
         'name':'Mundo',
         'cost': 2,
-        'thumb':'Mundo.png',
+        'thumb':'DrMundo.png',
     },
     'gangplank':{
         'name':'Gangplank',
@@ -386,7 +386,7 @@ champions_data = {
     'smolder':{
         'name':'Smolder',
         'cost': 3,
-        'thumb':'Smolder.png',
+        'thumb':'Smolder.webp',
     },
     'swain':{
         'name':'Swain',
