@@ -499,9 +499,9 @@ champions_data = {
         'thumb':'Seraphine.png',
     },
     'tf':{
-        'name':'Twistedfate',
+        'name':'TF',
         'cost': 5,
-        'thumb':'Twistedfate.png',
+        'thumb':'TwistedFate.png',
     },
     'varus':{
         'name':'Varus',
