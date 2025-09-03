@@ -491,7 +491,7 @@ champions_data = {
     'leesin':{
         'name':'Lee Sin',
         'cost': 5,
-        'thumb':'leesin.png',
+        'thumb':'LeeSin.png',
     },
     'seraphine':{
         'name':'Seraphine',
