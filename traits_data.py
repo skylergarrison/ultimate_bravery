@@ -224,6 +224,7 @@ low_pop_traits = [
     'Avatar',
     'Greenfather',
     'Monolith',
+    'Rival',
 ]
 
 champions_data = {
