@@ -36,7 +36,7 @@ origins = {
         'ezreal',
         'gnar',
         'hecarim',
-        'leblance',
+        'leblanc',
         'ornn',
         'xayah',
     ],
