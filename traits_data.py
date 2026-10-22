@@ -406,7 +406,7 @@ champions_data = {
     'mamabeak':{
         'name':'Mama Beak',
         'cost': 3,
-        'thumb':'Mamabeak.webp',
+        'thumb':'MamaBeak.webp',
     },
     'masteryi':{
         'name':'Master Yi',
